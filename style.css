@@ -1,0 +1,154 @@
+dl {
+    text-align: center;
+    margin: 0;
+}
+dl dd, dl dt {
+    display: inline;
+    margin-inline-start: 0;
+}
+dl dt {
+    font-weight: bold;
+}
+
+.adress {
+    width: 60%;
+    display: none;
+}
+
+.contacts {
+    margin-top: 10px;
+    display: none;
+}
+
+@media only screen and (min-width: 1024px) {
+  .adress {
+      display: block;
+  }
+
+  .upper-header div.private-office {
+      float: left;
+  }
+
+  .contacts {
+      display: block;
+  }
+
+}
+
+.upper-header {
+    padding: 24px 0;
+    line-height: 2px;
+}
+.upper-header div {
+    float: left;
+}
+
+.geo {
+    margin-left: 3em;
+}
+
+hr {
+    clear: both;
+    margin: 0;
+}
+
+.geo-icon {
+    background-image: url('768/Vector.png');
+    width: 16px;
+    height: 21px;
+    position: relative;
+    top: -10px;
+}
+
+.geo-select {
+    padding-left: 10px;
+}
+
+.upper-header div.private-office {
+    float: right;
+}
+
+.private-office {
+    margin-right: 80px;
+}
+
+.private-office-link {
+    background: url('768/Vector-2.png') no-repeat;
+    padding: 1px 0 10px 32px;
+}
+
+.primary {
+    color: #337FD2;
+}
+
+.logo {
+    background-image: url('768/Commerce.png');
+    width: 170px;
+    height: 24px;
+    margin-left: 45px;
+    margin-top: 14px;
+}
+
+.logo-description {
+    width: 109px;
+    margin-left: 12px;
+}
+
+.middle-header {
+    height: 54px;
+    padding: 25px 0px;
+}
+
+
+.middle-header div {
+  float: left;
+}
+
+.bottom-header {
+    clear: both;
+}
+
+.call-back-link {
+    display: block;
+}
+
+.phone-icon {
+    background: url('768/Vector-1.png') no-repeat;
+    width: 17px;
+    height: 21px;
+    margin-top: 8px;
+    margin-right: 7px;
+    margin-left: 50px;
+}
+
+.search-field {
+    margin-left: 10px;
+    margin-top: 14px;
+}
+
+.cart {
+    margin-left: 40px;
+}
+
+.cart-icon {
+    background: url('768/Vector-3.png') no-repeat;
+    width: 38px;
+    height: 35px;
+}
+
+.items-in-cart {
+    border-radius: 50%;
+    background-color: #E65555;
+    color: #FFFFFF;
+    display: inline-block;
+    width: 29px;
+    height: 29px;
+    text-align: center;
+    line-height: 28px;
+    margin-left: 9px;
+    margin-top: 3px;
+}
+
+.price-total {
+    margin-left: 5px;
+}
